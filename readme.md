@@ -1,7 +1,6 @@
 Fast TensorFlow Layer Normalization GPU kernel
 ====
-![comparing built-in and custom]
-(https://github.com/MycChiu/fast-LayerNorm-TF/blob/master/images/nvvp_comparison.png)
+![comparing built-in and custom](https://github.com/MycChiu/fast-LayerNorm-TF/blob/master/images/nvvp_comparison.png)
 
 *Kernel profile produced in [NVIDIA Visual Profiler](https://developer.nvidia.com/nvidia-visual-profiler), with input shape of [16,1024,256].*
 
