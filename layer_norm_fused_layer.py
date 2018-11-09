@@ -15,7 +15,7 @@ from tensorflow.python.ops import variable_scope
 import tensorflow as tf
 
 cMod = tf.load_op_library(
-    'layer_norm_fused_op.so')
+    './layer_norm_fused_op.so')
 
 # disabled these if using newer version of Tensorflow. (You can keep this
 # if no error raised)
